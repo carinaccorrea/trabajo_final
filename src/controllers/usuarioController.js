@@ -35,7 +35,11 @@ listarInfo:async (req,res,next)=>{
         res.json({
             success: true,
             data: {
-                usuario: user
+                nombre: user.nombre,
+                apellido: user.apellido,
+                email: user.email,
+                edad:user.edad
+
             }
         })
 
