@@ -1,7 +1,7 @@
 {
   "name": "tpf",
   "version": "1.0.0",
-  "description": "tpf",
+  "description": "trabajo final",
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/index.js",
